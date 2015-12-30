@@ -8,7 +8,7 @@ if (session_id() == "") {
 $redBean = dirname(__FILE__) . '/assets/rb.php';
 require_once $redBean;
 // R::setup('mysql:host=58.64.182.3:3306;dbname=wangrunxin', 'wangrunxin', 'wrx52691000');
-R::setup('mysql:host=localhost;dbname=wangrunxin', 'wangrunxin', 'wrx52691000');
+R::setup('mysql:host=localhost;dbname=u452035567_cms', 'u452035567_wang', 'wrx52sby');
 
 //include visitor;
 $visitor = dirname(__FILE__) . '/visitor_helper.php';
