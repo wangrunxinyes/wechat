@@ -300,7 +300,7 @@ class SystemMenu {
 
 		<ul class="sub-menu">
 
-			<li ' . $message_list . ' style="display:none;">
+			<li ' . $message_list . '>
 
 				<a href="' . Yii::app()->assets->getUrlPath('backend/messagelist') . '">用户留言处理</a>
 

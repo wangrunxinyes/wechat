@@ -241,8 +241,7 @@ class BackendController extends Controller {
 	public function actionMessagelist() {
 
 		self::check();
-		$this->redirect(array('/backend/permission'));
-		// $this->render('weixin_message_list');
+		$this->render('weixin_message_list');
 
 	}
 
