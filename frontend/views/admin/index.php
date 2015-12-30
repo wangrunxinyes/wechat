@@ -34,6 +34,12 @@ if ($par != null) {
 
 		break;
 
+	case 'logger':
+
+		include "subview/logger.php";
+
+		break;
+
 	default:
 
 		echo "unknown.";
