@@ -9,7 +9,7 @@ $('.weixin-check-user').unbind("click");
             		$("#weixin_content_history").html("加载中...");
             	$(document).find('a[user-chosen=yes]').attr("user-chosen", "no");
             	obj.attr("user-chosen", "yes");
-            	var url = $("#reply_url").val();
+            	var url = $("#ajax_url").val();
                         var type = obj.attr("type");
                         var data = obj.attr("data");
                         var img = obj.find("img").attr("src");
