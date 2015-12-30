@@ -38,7 +38,7 @@
 
 
 
-	<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl;?>/assets/global.style/css/useso.css.css" type='text/css'>
+	<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/global.style/css/useso.css.css" type='text/css'>
 
 
 
@@ -54,7 +54,7 @@
 
 
 
-	<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl;?>/assets/frame.layout/css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/frame.layout/css/reset.css"> <!-- CSS reset -->
 
 
 
@@ -62,7 +62,7 @@
 
 
 
-	<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl;?>/assets/frame.layout/css/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/frame.layout/css/style.css"> <!-- Resource style -->
 
 
 
@@ -70,7 +70,7 @@
 
 
 
-	<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl;?>/assets/frame.layout/css/popup.reset.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/frame.layout/css/popup.reset.css"> <!-- Resource style -->
 
 
 
@@ -78,7 +78,7 @@
 
 
 
-	<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl;?>/assets/frame.layout/css/popup.style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/frame.layout/css/popup.style.css"> <!-- Resource style -->
 
 
 
@@ -94,7 +94,7 @@
 
 
 
-	<script src="<?php echo Yii::app()->request->baseUrl;?>/assets/global.style/js/jquery-2.1.1.js"></script> <!-- Modernizr -->
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/global.style/js/jquery-2.1.1.js"></script> <!-- Modernizr -->
 
 
 
@@ -102,7 +102,7 @@
 
 
 
-	<script src="<?php echo Yii::app()->request->baseUrl;?>/assets/frame.layout/js/popup.modernizr.js"></script> <!-- Modernizr -->
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/frame.layout/js/popup.modernizr.js"></script> <!-- Modernizr -->
 
 
 
@@ -118,7 +118,7 @@
 
 
 
-	<script src="<?php echo Yii::app()->request->baseUrl;?>/assets/custom.files/js/handle.popup.js"></script> <!-- Modernizr -->
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/custom.files/js/handle.popup.js"></script> <!-- Modernizr -->
 
 
 
@@ -126,7 +126,7 @@
 
 
 
-	<title><?php echo CHtml::encode($this->pageTitle);?></title>
+	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 
 
 
@@ -166,7 +166,7 @@
 
 
 
-		<a id="cd-logo" href="#0"><img scr="<?php echo Yii::app()->request->hostInfo . Yii::app()->baseUrl;?>/assets/global.style/img/logo.png" alt="<?php echo CHtml::encode($this->pageTitle);?>"></a>
+		<a id="cd-logo" href="#0"><img scr="<?php echo Yii::app()->request->hostInfo . Yii::app()->baseUrl; ?>/assets/global.style/img/logo.png" alt="<?php echo CHtml::encode($this->pageTitle); ?>"></a>
 
 
 
@@ -254,7 +254,7 @@ if (Yii::app()->user->isGuest) {
 
 
 
-		<?php echo $content;?>
+		<?php echo $content; ?>
 
 
 
@@ -302,7 +302,7 @@ if (Yii::app()->user->isGuest) {
 
 
 
-	        <img src="<?php echo Yii::app()->request->baseUrl;?>/assets/extensions/user.account.images/img/logo.png" alt=""/>
+	        <img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/extensions/user.account.images/img/logo.png" alt=""/>
 
 
 
@@ -568,7 +568,7 @@ if (Yii::app()->user->isGuest) {
 
 
 
-<script src="<?php echo Yii::app()->request->baseUrl;?>/assets/frame.layout/js/main.js"></script> <!-- Resource jQuery -->
+<script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/frame.layout/js/main.js"></script> <!-- Resource jQuery -->
 
 
 
@@ -576,7 +576,7 @@ if (Yii::app()->user->isGuest) {
 
 
 
-<script src="<?php echo Yii::app()->baseUrl . '/assets/frame.layout/';?>js/popup.js"></script>
+<script src="<?php echo Yii::app()->baseUrl . '/assets/frame.layout/'; ?>js/popup.js"></script>
 
 
 

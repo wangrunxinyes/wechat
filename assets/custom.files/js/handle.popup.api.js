@@ -66,7 +66,7 @@ var UIReplyDialogApi = function () {
     	$('.wrx-mark').unbind("click");
     	$('.wrx-mark').click(function(){
     		var obj = $(this);
-                        var url = $("#reply_url").val();
+                        var url = $("#ajax_url").val();
                         var type = $("#reply_type").val();
                         var id = obj.attr("data");
                        
@@ -123,7 +123,7 @@ var MessageReload = function () {
 
 	var handleMsg = function() {
 		var obj = $(document).find('a[user-chosen=yes]');
-        	 var url = $("#reply_url").val();
+        	 var url = $("#ajax_url").val();
              var type = 'weixin_check_unread_message';
                       
 
