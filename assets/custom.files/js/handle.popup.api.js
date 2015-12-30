@@ -21,7 +21,7 @@ var UIReplyDialogApi = function () {
                     if (result === null || result == null || result == "") {
                     	 bootbox.alert("不执行任何操作");
                     } else {
-                        var url = $("#reply_url").val();
+                        var url = $("#ajax_url").val();
                         var type = $("#reply_type").val();
                         var id = obj.attr("data");
                        
