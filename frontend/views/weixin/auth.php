@@ -2,8 +2,8 @@
 
 define("TOKEN", "wangrunxinyes");
 
-Logger::log(date(), "\n\nREMOTE_ADDR:" . $_SERVER["REMOTE_ADDR"] . (strstr($_SERVER["REMOTE_ADDR"], '101.226') ? " FROM WeiXin" : "Unknown IP"));
-Logger::log(date(), "QUERY_STRING:" . $_SERVER["QUERY_STRING"]);
+Logger::log("wexin auth", "\n\nREMOTE_ADDR:" . $_SERVER["REMOTE_ADDR"] . (strstr($_SERVER["REMOTE_ADDR"], '101.226') ? " FROM WeiXin" : "Unknown IP"));
+Logger::log("wexin auth", "QUERY_STRING:" . $_SERVER["QUERY_STRING"]);
 
 $wechatObj = new wechatCallbackapiTest();
 
