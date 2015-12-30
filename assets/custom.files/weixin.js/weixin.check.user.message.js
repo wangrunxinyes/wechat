@@ -68,7 +68,7 @@ var WeixinMessageRefreshHelper = function () {
     var handleRefreshMessage = function() {
             		$("#weixin_content_history").html("加载中...");
             	
-            	var url = $("#reply_url").val();
+            	var url = $("#ajax_url").val();
                         var type = 'weixin_load_message';
                         var data = $(".weixin-refresh").attr("data");
                         var img =$(".weixin-refresh").attr("img");
