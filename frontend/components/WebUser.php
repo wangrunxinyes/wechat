@@ -24,7 +24,7 @@ class WebUser extends CWebUser {
 
 	}
 
-	public function login($identity, $duration) {
+	public function login($identity, $duration = 0) {
 
 		if (parent::login($identity, $duration)) {
 
