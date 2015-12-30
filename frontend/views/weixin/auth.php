@@ -1,14 +1,8 @@
 <?php
 
-/*
-
-方倍工作室 http://www.cnblogs.com/txw1958/
-
-CopyRight 2013 www.doucube.com  All Rights Reserved
-
- */
-
 define("TOKEN", "wangrunxinyes");
+
+Logger::log("call", print_r($_POST, true));
 
 $wechatObj = new wechatCallbackapiTest();
 
