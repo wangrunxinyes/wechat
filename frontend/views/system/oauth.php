@@ -1,0 +1,1 @@
+<a href="<?php echo weixin_oauth_helper::get_oauth_url()?>">oauth test</a>
